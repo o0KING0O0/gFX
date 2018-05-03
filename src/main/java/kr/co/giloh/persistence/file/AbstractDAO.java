@@ -1,9 +1,10 @@
-package kr.co.giloh.fx.dao;
+package kr.co.giloh.persistence.file;
 
 
 import com.google.gson.Gson;
 import javafx.collections.ObservableList;
 import kr.co.giloh.fx.util.JAXBTool;
+import kr.co.giloh.persistence.DataTransferObject;
 import org.hildan.fxgson.FxGson;
 
 import java.io.File;
@@ -13,7 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class BasicDAO<T extends DataTransferObject<T>> implements SimpleDAO<T> {
+public abstract class AbstractDAO<T extends DataTransferObject<T>> implements SimpleDAO<T> {
 
 
 	@Override
@@ -29,7 +30,7 @@ public abstract class BasicDAO<T extends DataTransferObject<T>> implements Simpl
 		return flag;
 	}
 
-	public boolean create(BasicDAO<T> dao) {
+	public boolean create(AbstractDAO<T> dao) {
 		return create(dao.read());
 	}
 
