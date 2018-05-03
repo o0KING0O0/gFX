@@ -1,4 +1,4 @@
-package kr.co.giloh.fx.dao;
+package kr.co.giloh.model.dao;
 
 
 public interface Emptiable {
