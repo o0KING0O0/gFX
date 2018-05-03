@@ -12,9 +12,15 @@ import java.io.IOException;
 import java.net.URL;
 
 /**
- * Created by giloh on 2017. 4. 21..
+ * Created by co on 2017. 4. 21..
  */
 public class FXControllerGen {
+
+	/**
+	 * @param fxml
+	 * @param <C>
+	 * @return
+	 */
 	public static <C extends StageContainable> C genCtrl(URL fxml) {
 		C ctrl = null;
 		FXMLLoader loader = new FXMLLoader(fxml);
@@ -32,6 +38,26 @@ public class FXControllerGen {
 
 		return ctrl;
 	}
+
+	public static <C extends StageContainable> C genCtrl(URL fxml, String title) {
+		C ctrl = null;
+		FXMLLoader loader = new FXMLLoader(fxml);
+		try {
+			Parent root = loader.load();
+			final Scene scene = new Scene(root);
+			final Stage stage = new Stage();
+			stage.sizeToScene();
+			stage.setScene(scene);
+			stage.setTitle(title);
+			ctrl = (C) loader.getController();
+			ctrl.setStage(stage);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return ctrl;
+	}
+
 
 	/**
 	 * @param fxml

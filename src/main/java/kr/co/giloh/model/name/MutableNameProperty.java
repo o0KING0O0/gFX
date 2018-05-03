@@ -1,8 +1,8 @@
-package kr.co.giloh.fx;
+package kr.co.giloh.model.name;
 
 import javafx.beans.property.StringProperty;
 
-public interface Nameable {
+public interface MutableNameProperty {
 	StringProperty nameProperty();
 
 	String getName();

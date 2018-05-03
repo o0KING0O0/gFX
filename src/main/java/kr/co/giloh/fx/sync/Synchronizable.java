@@ -1,12 +1,12 @@
 package kr.co.giloh.fx.sync;
 
 
-import kr.co.giloh.fx.dao.BasicDAO;
-import kr.co.giloh.fx.dao.Copyable;
-import kr.co.giloh.fx.dao.DataTransferObject;
-import kr.co.giloh.fx.dao.Emptiable;
+import kr.co.giloh.persistence.file.AbstractDAO;
+import kr.co.giloh.model.dao.Copyable;
+import kr.co.giloh.persistence.DataTransferObject;
+import kr.co.giloh.model.dao.Emptiable;
 
-public interface Synchronizable<T extends DataTransferObject<T> & Copyable<T> & Emptiable, D extends BasicDAO<T>> {
+public interface Synchronizable<T extends DataTransferObject<T> & Copyable<T> & Emptiable, D extends AbstractDAO<T>> {
 	/**
 	 * @param source
 	 * @param targetDAO : DAO will have source instance. <br/>

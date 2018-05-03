@@ -1,8 +1,8 @@
 package kr.co.giloh.fx.util;
 
-import kr.co.giloh.fx.dao.BasicDAO;
-import kr.co.giloh.fx.dao.Copyable;
-import kr.co.giloh.fx.dao.DataTransferObject;
+import kr.co.giloh.persistence.file.AbstractDAO;
+import kr.co.giloh.model.dao.Copyable;
+import kr.co.giloh.persistence.DataTransferObject;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -11,7 +11,7 @@ import java.io.StringReader;
 import java.io.StringWriter;
 
 /**
- * Created by giloh on 2017. 5. 13..
+ * Created by co on 2017. 5. 13..
  */
 public class JAXBTool {
 
@@ -47,7 +47,7 @@ public class JAXBTool {
 		}
 	}
 
-	public static <T extends DataTransferObject<T>, D extends BasicDAO<T>> void unmarshalDAO(D obj, File xml) {
+	public static <T extends DataTransferObject<T>, D extends AbstractDAO<T>> void unmarshalDAO(D obj, File xml) {
 		if (xml.exists()) {
 			try {
 				D oldObj = (D) JAXBContext.newInstance(obj.getClass()).createUnmarshaller().unmarshal(xml);
@@ -58,7 +58,7 @@ public class JAXBTool {
 		}
 	}
 
-	public static <T extends DataTransferObject<T>, D extends BasicDAO<T>> void unmarshalDAO(D obj, String mashaledText) {
+	public static <T extends DataTransferObject<T>, D extends AbstractDAO<T>> void unmarshalDAO(D obj, String mashaledText) {
 		try {
 			D oldObj = (D) JAXBContext.newInstance(obj.getClass()).createUnmarshaller().unmarshal(new StringReader(mashaledText));
 			obj.copy(oldObj.read());

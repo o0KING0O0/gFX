@@ -5,7 +5,7 @@ import javafx.scene.effect.DropShadow;
 import javafx.scene.input.MouseEvent;
 
 /**
- * Created by giloh on 2017. 6. 6..
+ * Created by co on 2017. 6. 6..
  */
 public class FXTool {
 	public static void applyButtonEffect(Node node) {
