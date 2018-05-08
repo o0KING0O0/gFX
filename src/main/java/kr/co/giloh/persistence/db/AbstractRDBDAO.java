@@ -168,6 +168,10 @@ public abstract class AbstractRDBDAO<T> implements RDBDataAccessObject<T> {
 		getFilteredList().addAll(getSrcList());
 	}
 
+	public Statement getStmt(){
+		return stmt;
+	}
+
 	public abstract String writeInsertSQL(T itemToAdd);
 
 	public abstract String writeUpdateSQL(T oldItem, T newItem);
