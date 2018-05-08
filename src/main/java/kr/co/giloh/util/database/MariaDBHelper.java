@@ -4,20 +4,23 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class MariaDBHelper {
 
 
-	public static Date readCurrentDate(Statement stmt) throws SQLException {
-		Date currentDate = null;
+	public static LocalDate readCurrentDate(Statement stmt) throws SQLException {
+//		Date currentDate = null;
 
 		stmt.execute("SELECT CURRENT_DATE()");
 		ResultSet rs = stmt.getResultSet();
 		rs.next();
-		currentDate = rs.getDate("CURRENT_DATE()");
+//		currentDate = rs.getDate("CURRENT_DATE()");
+//		rs.getDate("CURRENT_DATE()").toLocalDate();
+		
 
-		return currentDate;
+		return rs.getDate("CURRENT_DATE()").toLocalDate();
 	}
 
 	public static int readLastIndex(Statement stmt, String tableName, String indexColumnName) {
