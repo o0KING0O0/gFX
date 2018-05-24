@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cd64331-e73c-4624-a275-03dd6136cd99" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gFX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gFX.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gFX_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gFX_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gFX_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gFX_test.iml" afterDir="false" />
+    <list default="true" id="5cd64331-e73c-4624-a275-03dd6136cd99" name="Default" comment="Update before AS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -71,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/kr/co/giloh/fx/util/FXTool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -481,7 +475,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -561,6 +554,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -645,6 +639,7 @@
       <workItem from="1525332566586" duration="515000" />
       <workItem from="1525334805484" duration="217000" />
       <workItem from="1525335042698" duration="253000" />
+      <workItem from="1527122311457" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="Colorable interface">
       <created>1525332733541</created>
@@ -688,44 +683,57 @@
       <option name="project" value="LOCAL" />
       <updated>1525333016578</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update before AS">
+      <created>1527122359519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527122359519</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update before AS">
+      <created>1527122393314</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527122393314</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1874000" />
+    <option name="totallyTimeSpent" value="1991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1146" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="PlantUML" visible="true" weight="0.31363153" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.32983795" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021299" side_tool="true" visible="true" weight="0.32983795" />
       <window_info anchor="right" id="Maven Projects" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49893504" visible="true" weight="0.32983795" />
       <window_info anchor="bottom" id="Run" order="4" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.4978701" visible="true" weight="0.32983795" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" x="0" y="261" width="1024" height="745" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" x="0" y="261" width="1024" height="745" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.44076434" />
       <window_info anchor="right" id="Database" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Gradle" order="9" weight="0.23109691" />
       <window_info anchor="right" x="-1024" y="23" width="1024" height="745" id="Structure" order="11" side_tool="true" weight="0.23565324" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.35465768" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="PlantUML" order="12" visible="true" weight="0.31363153" />
       <window_info id="Nl-Palette" order="1" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.44076434" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -746,6 +754,32 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -756,9 +790,31 @@
     <MESSAGE value="persistence for file" />
     <MESSAGE value="refactored" />
     <MESSAGE value="add commons-lang3 v3.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="add commons-lang3 v3.7" />
+    <MESSAGE value="Update before AS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update before AS" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/co/giloh/fx/util/FXTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -812,14 +868,14 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/co/giloh/fx/util/FXTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
